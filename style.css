@@ -44,10 +44,9 @@ body{
 
 /* banner section star */
 .banner-contain{
-    max-width: 1200px;
+    max-width: 1195px;
     margin: 0 auto;
     min-height: 500px;
-    border: 2px solid red;
     position: relative;
     background-image:  url('./Images/Group\ 13\ \(1\)\ \(1\).png');
     
@@ -57,7 +56,7 @@ body{
     font-size: 30px;
     color:black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .banner-description{
     font-size: 18px;
@@ -70,7 +69,7 @@ body{
     border-radius: 8px;
     margin-top: 30px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
 }
 .btn1{
@@ -95,8 +94,46 @@ body{
     border-color: red;
 }
 
+/* popular tours */
+.popular{
+    border: 2px solid red;
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.popular-part1{
+    padding-left: 20px;
 
+}
+.popular-img-contain img{
+    width: 100%;
+}
+.popular-title{
+    font-size: 30px;
+    padding-top: 60px;
+}
 
+.popular-part1 >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-part1 >li{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-btn{
+    background-color: red;
+    color: #FFF;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-size: 18px;
+}
 
 
 
@@ -120,7 +157,7 @@ body{
     .item-container{
         font-size: 16px;
     }
-   .banner-btn{
+   .banner-btn, .popular{
     flex-direction: column;
    }
 
