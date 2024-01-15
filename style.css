@@ -96,7 +96,6 @@ body{
 
 /* popular tours */
 .popular{
-    border: 2px solid red;
     margin: 0 auto;
     max-width: 1195px;
     min-height: 600px;
@@ -114,7 +113,7 @@ body{
 }
 .popular-title{
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .popular-part1 >p{
@@ -133,6 +132,42 @@ body{
     padding-bottom: 20px;
     padding-right: 40px;
     font-size: 18px;
+}
+
+/* choose your sedtination */
+.choose-container{
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+}
+.text-title{
+    font-size: 30px;
+    text-align: center;
+}
+.text-contan >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+}
+.flex-item{
+    padding: 20px;
+}
+.flex-item1{
+    display: flex;
+    gap: 20px;
+}
+/* .img-item{
+    width: 100%;
+} */
+.flex-item2{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.flex-item3{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
 }
 
 
@@ -157,11 +192,25 @@ body{
     .item-container{
         font-size: 16px;
     }
-   .banner-btn, .popular{
+   .banner-btn, .popular, .choose-container,
+   .flex-item1, .flex-item2, .flex-item3{
     flex-direction: column;
+   }
+   .flex-item1 img{
+    width: 100%;
+   }
+   .flex-item2 img{
+    width: 100%;
+   }
+   .flex-item3 img{
+    width: 100%;
    }
 
 }
+
+
+
+
 @media screen and (max-width:576px) {
     .checkbtn{
         display: block;
