@@ -17,7 +17,6 @@ body{
 }
 .nav-container h1{
     font-size: 25px;
-    color: blueviolet;
 }
 .item-container{
     width: 50%;
@@ -125,7 +124,8 @@ body{
     color: rgba(19, 19, 24, 0.70);
 }
 .popular-btn{
-    background-color: red;
+    background-color: orangered;
+    border-color: #FF5400;
     color: #FFF;
     border-radius: 10px;
     padding-top: 20px;
@@ -239,6 +239,76 @@ body{
     padding-left: 10px;
 }
 
+/* deals & discounts start */
+/* .discount-container{
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+    border: 2px solid red;
+    
+}
+.discount{
+    text-align: center;
+}
+.discount >h3{
+    font-size: 30px;
+    color: #131318;
+}
+.discount >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.document{
+    background-color: rgb(249, 240, 230);
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-right: 50%;
+}
+.document >h3{
+    font-size: 30px;
+    color: #131318;
+}
+.document >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70); 
+}
+.deal-btn{
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    padding: 10px;
+
+} */
+
+/* a simple perfect place */
+.simple-continer{
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.simple-img-contan img{
+    width: 100%;
+}
+.simple-txt-contan{
+    padding-left: 15px;
+}
+.simple-txt-contan >h3{
+    font-size: 30px;
+    color: #131318;
+}
+.simple-txt-contan >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.simple-txt-contan >li{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
 
 
 
@@ -263,6 +333,9 @@ body{
    .banner-btn, .popular, .choose-container,
    .flex-item1, .flex-item2, .flex-item3,
    .chooseus-container, .connect{
+    flex-direction: column;
+   }
+   .simple-continer{
     flex-direction: column;
    }
    .flex-item1 img{
