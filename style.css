@@ -170,6 +170,74 @@ body{
     padding-top: 20px;
 }
 
+/* why choose us */
+.chooseus-container{
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+ 
+}
+.descrip-conten{
+    text-align: center;
+    padding-top: 10px;
+}
+.descrip-conten >h3{
+    font-size: 30px;
+    color: #131318;
+}
+.descrip-conten >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.connect{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.hotel{
+    background-color: cornsilk;
+}
+.hotel >h3{
+    font-size: 30px;
+    color: #131318;
+    padding-left: 10px;
+}
+.hotel >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+    padding-left: 10px;
+}
+.service{
+    background-color: rgb(212, 245, 234);
+}
+.service >h3{
+    font-size: 30px;
+    color: #131318;
+    padding-left: 10px;
+}
+.service >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+    padding-left: 10px;
+}
+.best-price{
+    background-color: rgb(250, 222, 226);
+    margin-right: 30%;
+    margin-left: 30%;
+    justify-content: center;
+
+}
+.best-price >h3{
+    font-size: 30px;
+    color: #131318;
+    padding-left: 10px;
+}
+.best-price >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+    padding-left: 10px;
+}
 
 
 
@@ -193,7 +261,8 @@ body{
         font-size: 16px;
     }
    .banner-btn, .popular, .choose-container,
-   .flex-item1, .flex-item2, .flex-item3{
+   .flex-item1, .flex-item2, .flex-item3,
+   .chooseus-container, .connect{
     flex-direction: column;
    }
    .flex-item1 img{
@@ -204,6 +273,10 @@ body{
    }
    .flex-item3 img{
     width: 100%;
+   }
+   .best-price{
+    width: 90%;
+    margin-left: 5%;
    }
 
 }
