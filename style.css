@@ -202,6 +202,10 @@ body{
 .hotel{
     background-color: cornsilk;
 }
+.hotel-icon{
+    width: 50px;
+    padding: 10px;
+}
 .hotel >h3{
     font-size: 30px;
     color: #131318;
@@ -214,6 +218,10 @@ body{
 }
 .service{
     background-color: rgb(212, 245, 234);
+}
+.location-icon{
+    width: 50px;
+    padding: 10px;
 }
 .service >h3{
     font-size: 30px;
@@ -232,6 +240,10 @@ body{
     justify-content: center;
 
 }
+.price-icon{
+    width: 50px;
+    padding: 10px;
+}
 .best-price >h3{
     font-size: 30px;
     color: #131318;
@@ -249,7 +261,7 @@ body{
     margin: 0 auto;
     max-width: 1195px;
     min-height: 600px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 /* wisdom of experts */
