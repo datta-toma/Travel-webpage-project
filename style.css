@@ -138,7 +138,7 @@ body{
     font-size: 18px;
 }
 
-/* choose your sedtination */
+/* choose your drstination */
 .choose-container{
     margin: 0 auto;
     max-width: 1195px;
@@ -160,18 +160,17 @@ body{
     display: flex;
     gap: 20px;
 }
-/* .img-item{
-    width: 100%;
-} */
+
 .flex-item2{
     display: flex;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
+   
 }
 .flex-item3{
     display: flex;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* why choose us */
@@ -281,48 +280,6 @@ body{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
 }
-
-/* deals & discounts start */
-/* .discount-container{
-    margin: 0 auto;
-    max-width: 1195px;
-    min-height: 600px;
-    border: 2px solid red;
-    
-}
-.discount{
-    text-align: center;
-}
-.discount >h3{
-    font-size: 30px;
-    color: #131318;
-}
-.discount >p{
-    font-size: 18px;
-    color: rgba(19, 19, 24, 0.70);
-}
-.document{
-    background-color: rgb(249, 240, 230);
-    padding-top: 10px;
-    padding-left: 20px;
-    margin-left: 50px;
-    margin-right: 50%;
-}
-.document >h3{
-    font-size: 30px;
-    color: #131318;
-}
-.document >p{
-    font-size: 18px;
-    color: rgba(19, 19, 24, 0.70); 
-}
-.deal-btn{
-    color: white;
-    background-color: orangered;
-    border-color: orangered;
-    padding: 10px;
-
-} */
 
 /* a simple perfect place */
 .simple-continer{
