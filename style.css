@@ -239,6 +239,32 @@ body{
     padding-left: 10px;
 }
 
+/* wisodm of experts */
+
+.experts-container{
+    margin: 0 auto;
+    max-width: 1195px;
+    min-height: 600px;
+}
+
+/* wisdom of experts */
+.icon-item{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    
+}
+.expert-contan >h3{
+    font-size: 30px;
+    text-align: center;
+    color: #131318;
+}
+.expert-contan >p{
+    font-size: 18px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+}
+
 /* deals & discounts start */
 /* .discount-container{
     margin: 0 auto;
@@ -433,7 +459,8 @@ body{
    .chooseus-container, .connect{
     flex-direction: column;
    }
-   .simple-continer, .news-continer{
+   .simple-continer, .news-continer,
+   .icon-item{
     flex-direction: column;
    }
    .flex-item1 img{
