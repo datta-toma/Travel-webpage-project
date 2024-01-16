@@ -262,8 +262,6 @@ body{
     min-height: 600px;
     padding-top: 30px;
 }
-
-/* wisdom of experts */
 .icon-item{
     display: flex;
     gap: 20px;
@@ -391,7 +389,7 @@ body{
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .footer-contan{
     text-align: center;
