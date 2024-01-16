@@ -35,10 +35,14 @@ body{
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
+    display: none;
     
 }
 #check{
     display: none;
+}
+.checkbtn{
+    display: hide;
 }
 
 /* banner section star */
@@ -245,6 +249,7 @@ body{
     margin: 0 auto;
     max-width: 1195px;
     min-height: 600px;
+    padding-top: 20px;
 }
 
 /* wisdom of experts */
